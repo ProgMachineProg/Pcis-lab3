@@ -43,7 +43,7 @@ public class ImageFadingApp {
         Random random = new Random();
         while (true) {
             try {
-                Thread.sleep(100); // Adjust the sleep duration based on the fading speed
+                Thread.sleep(100);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
